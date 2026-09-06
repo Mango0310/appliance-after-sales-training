@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# node_modules 符号链接（指向 codex 运行时，绝不提交）
+node_modules/
+
+# 运行数据库（运行时自动重建，勿提交）
+data/*.db
+data/*.db-*
+
+# 日志
+*.log
+
+# 调试文件
+*.ndjson
+
+# 个人求职草稿
+新建 文本文档.txt
+
+# 环境与密钥
+.env
+.env.local
+
+# 本地启动脚本（含本机端口配置，不上传）
+启动平台.bat
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
